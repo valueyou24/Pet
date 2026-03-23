@@ -4574,3 +4574,1763 @@ events:
         - "D:/pytorch/envs/pytorch/Lib/site-packages/cmake/data"
         - "C:/Program Files (x86)/Pet"
 ...
+
+---
+events:
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake:13 (find_package)"
+      - "build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake:340 (find_package)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:34 (find_package)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:35 (_qt_internal_find_third_party_dependencies)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:43 (include)"
+      - "build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake:333 (find_package)"
+      - "D:/pytorch/envs/pytorch/Lib/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:145 (find_dependency)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:45 (_qt_internal_find_qt_dependencies)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
+      - "build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake:315 (find_package)"
+      - "CMakeLists.txt:4 (find_package)"
+    name: "Vulkan"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "dependency_provider::qt_maintenance_tool_dependency"
+        mode: "provider"
+        reason: "not_found"
+      -
+        path: "D:/pytorch/envs/pytorch/Lib/site-packages/cmake/data/share/cmake-4.1/Modules/FindVulkan.cmake"
+        mode: "module"
+        reason: "not_found"
+    found: null
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "D:/QT/6.8.3/msvc2022_64"
+      ENV{PATH}:
+        - "D:\\C++\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64"
+        - "D:\\C++\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\C++\\MSBuild\\Current\\bin\\Roslyn"
+        - "D:\\C++\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\C++\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "D:\\C++\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "D:\\C++\\Common7\\IDE\\"
+        - "D:\\C++\\Common7\\Tools\\"
+        - "D:\\VM_relate\\bin\\"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\libnvvp"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\PDFtk Server\\bin\\"
+        - "D:\\C++\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64"
+        - "D:\\pytorch\\envs\\pytorch\\Scripts"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.1.0\\"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\lib\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\nvvm"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\pytorch"
+        - "D:\\pytorch\\Scripts"
+        - "D:\\pytorch\\Library\\bin"
+        - "C:\\Program Files\\TortoiseGit\\bin"
+        - "D:\\nodeJs\\node_modules"
+        - "D:\\nodeJs\\"
+        - "D:\\QT\\6.8.3\\mingw_64\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\pytorch\\PyCharm 2024.1.4\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "D:\\nodeJs\\node_global"
+        - "C:\\Users\\Administrator\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Ollama"
+        - "D:\\C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\C++\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\C++\\VC\\vcpkg"
+        - "D:\\pytorch\\envs\\pytorch\\Scripts"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Pet"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/pytorch/envs/pytorch/Lib/site-packages/cmake/data"
+        - "C:/Program Files (x86)/Pet"
+      CMAKE_MODULE_PATH:
+        - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6"
+        - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules"
+        - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/3rdparty/kwin"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:34 (find_package)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:35 (_qt_internal_find_third_party_dependencies)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:43 (include)"
+      - "build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake:333 (find_package)"
+      - "D:/pytorch/envs/pytorch/Lib/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:145 (find_dependency)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:45 (_qt_internal_find_qt_dependencies)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
+      - "build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake:315 (find_package)"
+      - "CMakeLists.txt:4 (find_package)"
+    name: "WrapVulkanHeaders"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "dependency_provider::qt_maintenance_tool_dependency"
+        mode: "provider"
+        reason: "not_found"
+      -
+        path: "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake"
+        mode: "module"
+        reason: "not_found"
+    found: null
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "D:/QT/6.8.3/msvc2022_64"
+      ENV{PATH}:
+        - "D:\\C++\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64"
+        - "D:\\C++\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\C++\\MSBuild\\Current\\bin\\Roslyn"
+        - "D:\\C++\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\C++\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "D:\\C++\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "D:\\C++\\Common7\\IDE\\"
+        - "D:\\C++\\Common7\\Tools\\"
+        - "D:\\VM_relate\\bin\\"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\libnvvp"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\PDFtk Server\\bin\\"
+        - "D:\\C++\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64"
+        - "D:\\pytorch\\envs\\pytorch\\Scripts"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.1.0\\"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\lib\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\nvvm"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\pytorch"
+        - "D:\\pytorch\\Scripts"
+        - "D:\\pytorch\\Library\\bin"
+        - "C:\\Program Files\\TortoiseGit\\bin"
+        - "D:\\nodeJs\\node_modules"
+        - "D:\\nodeJs\\"
+        - "D:\\QT\\6.8.3\\mingw_64\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\pytorch\\PyCharm 2024.1.4\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "D:\\nodeJs\\node_global"
+        - "C:\\Users\\Administrator\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Ollama"
+        - "D:\\C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\C++\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\C++\\VC\\vcpkg"
+        - "D:\\pytorch\\envs\\pytorch\\Scripts"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Pet"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/pytorch/envs/pytorch/Lib/site-packages/cmake/data"
+        - "C:/Program Files (x86)/Pet"
+      CMAKE_MODULE_PATH:
+        - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6"
+        - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules"
+        - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/3rdparty/kwin"
+...
+
+---
+events:
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake:13 (find_package)"
+      - "build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake:340 (find_package)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:34 (find_package)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:35 (_qt_internal_find_third_party_dependencies)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:43 (include)"
+      - "build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake:333 (find_package)"
+      - "D:/pytorch/envs/pytorch/Lib/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:145 (find_dependency)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:45 (_qt_internal_find_qt_dependencies)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
+      - "build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake:315 (find_package)"
+      - "CMakeLists.txt:4 (find_package)"
+    name: "Vulkan"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "dependency_provider::qt_maintenance_tool_dependency"
+        mode: "provider"
+        reason: "not_found"
+      -
+        path: "D:/pytorch/envs/pytorch/Lib/site-packages/cmake/data/share/cmake-4.1/Modules/FindVulkan.cmake"
+        mode: "module"
+        reason: "not_found"
+    found: null
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "D:/QT/6.8.3/msvc2022_64"
+      ENV{PATH}:
+        - "D:\\C++\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64"
+        - "D:\\C++\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\C++\\MSBuild\\Current\\bin\\Roslyn"
+        - "D:\\C++\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\C++\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "D:\\C++\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "D:\\C++\\Common7\\IDE\\"
+        - "D:\\C++\\Common7\\Tools\\"
+        - "D:\\VM_relate\\bin\\"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\libnvvp"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\PDFtk Server\\bin\\"
+        - "D:\\C++\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64"
+        - "D:\\pytorch\\envs\\pytorch\\Scripts"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.1.0\\"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\lib\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\nvvm"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\pytorch"
+        - "D:\\pytorch\\Scripts"
+        - "D:\\pytorch\\Library\\bin"
+        - "C:\\Program Files\\TortoiseGit\\bin"
+        - "D:\\nodeJs\\node_modules"
+        - "D:\\nodeJs\\"
+        - "D:\\QT\\6.8.3\\mingw_64\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\pytorch\\PyCharm 2024.1.4\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "D:\\nodeJs\\node_global"
+        - "C:\\Users\\Administrator\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Ollama"
+        - "D:\\C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\C++\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\C++\\VC\\vcpkg"
+        - "D:\\pytorch\\envs\\pytorch\\Scripts"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Pet"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/pytorch/envs/pytorch/Lib/site-packages/cmake/data"
+        - "C:/Program Files (x86)/Pet"
+      CMAKE_MODULE_PATH:
+        - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6"
+        - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules"
+        - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/3rdparty/kwin"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:34 (find_package)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:35 (_qt_internal_find_third_party_dependencies)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:43 (include)"
+      - "build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake:333 (find_package)"
+      - "D:/pytorch/envs/pytorch/Lib/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:145 (find_dependency)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:45 (_qt_internal_find_qt_dependencies)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
+      - "build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake:315 (find_package)"
+      - "CMakeLists.txt:4 (find_package)"
+    name: "WrapVulkanHeaders"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "dependency_provider::qt_maintenance_tool_dependency"
+        mode: "provider"
+        reason: "not_found"
+      -
+        path: "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake"
+        mode: "module"
+        reason: "not_found"
+    found: null
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "D:/QT/6.8.3/msvc2022_64"
+      ENV{PATH}:
+        - "D:\\C++\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64"
+        - "D:\\C++\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\C++\\MSBuild\\Current\\bin\\Roslyn"
+        - "D:\\C++\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\C++\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "D:\\C++\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "D:\\C++\\Common7\\IDE\\"
+        - "D:\\C++\\Common7\\Tools\\"
+        - "D:\\VM_relate\\bin\\"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\libnvvp"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\PDFtk Server\\bin\\"
+        - "D:\\C++\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64"
+        - "D:\\pytorch\\envs\\pytorch\\Scripts"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.1.0\\"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\lib\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\nvvm"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\pytorch"
+        - "D:\\pytorch\\Scripts"
+        - "D:\\pytorch\\Library\\bin"
+        - "C:\\Program Files\\TortoiseGit\\bin"
+        - "D:\\nodeJs\\node_modules"
+        - "D:\\nodeJs\\"
+        - "D:\\QT\\6.8.3\\mingw_64\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\pytorch\\PyCharm 2024.1.4\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "D:\\nodeJs\\node_global"
+        - "C:\\Users\\Administrator\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Ollama"
+        - "D:\\C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\C++\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\C++\\VC\\vcpkg"
+        - "D:\\pytorch\\envs\\pytorch\\Scripts"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Pet"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/pytorch/envs/pytorch/Lib/site-packages/cmake/data"
+        - "C:/Program Files (x86)/Pet"
+      CMAKE_MODULE_PATH:
+        - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6"
+        - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules"
+        - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/3rdparty/kwin"
+...
+
+---
+events:
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake:13 (find_package)"
+      - "build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake:340 (find_package)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:34 (find_package)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:35 (_qt_internal_find_third_party_dependencies)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:43 (include)"
+      - "build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake:333 (find_package)"
+      - "D:/pytorch/envs/pytorch/Lib/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:145 (find_dependency)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:45 (_qt_internal_find_qt_dependencies)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
+      - "build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake:315 (find_package)"
+      - "CMakeLists.txt:4 (find_package)"
+    name: "Vulkan"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "dependency_provider::qt_maintenance_tool_dependency"
+        mode: "provider"
+        reason: "not_found"
+      -
+        path: "D:/pytorch/envs/pytorch/Lib/site-packages/cmake/data/share/cmake-4.1/Modules/FindVulkan.cmake"
+        mode: "module"
+        reason: "not_found"
+    found: null
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "D:/QT/6.8.3/msvc2022_64"
+      ENV{PATH}:
+        - "D:\\C++\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64"
+        - "D:\\C++\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\C++\\MSBuild\\Current\\bin\\Roslyn"
+        - "D:\\C++\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\C++\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "D:\\C++\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "D:\\C++\\Common7\\IDE\\"
+        - "D:\\C++\\Common7\\Tools\\"
+        - "D:\\VM_relate\\bin\\"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\libnvvp"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\PDFtk Server\\bin\\"
+        - "D:\\C++\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64"
+        - "D:\\pytorch\\envs\\pytorch\\Scripts"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.1.0\\"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\lib\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\nvvm"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\pytorch"
+        - "D:\\pytorch\\Scripts"
+        - "D:\\pytorch\\Library\\bin"
+        - "C:\\Program Files\\TortoiseGit\\bin"
+        - "D:\\nodeJs\\node_modules"
+        - "D:\\nodeJs\\"
+        - "D:\\QT\\6.8.3\\mingw_64\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\pytorch\\PyCharm 2024.1.4\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "D:\\nodeJs\\node_global"
+        - "C:\\Users\\Administrator\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Ollama"
+        - "D:\\C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\C++\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\C++\\VC\\vcpkg"
+        - "D:\\pytorch\\envs\\pytorch\\Scripts"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Pet"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/pytorch/envs/pytorch/Lib/site-packages/cmake/data"
+        - "C:/Program Files (x86)/Pet"
+      CMAKE_MODULE_PATH:
+        - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6"
+        - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules"
+        - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/3rdparty/kwin"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:34 (find_package)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:35 (_qt_internal_find_third_party_dependencies)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:43 (include)"
+      - "build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake:333 (find_package)"
+      - "D:/pytorch/envs/pytorch/Lib/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:145 (find_dependency)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:45 (_qt_internal_find_qt_dependencies)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
+      - "build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake:315 (find_package)"
+      - "CMakeLists.txt:4 (find_package)"
+    name: "WrapVulkanHeaders"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "dependency_provider::qt_maintenance_tool_dependency"
+        mode: "provider"
+        reason: "not_found"
+      -
+        path: "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake"
+        mode: "module"
+        reason: "not_found"
+    found: null
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "D:/QT/6.8.3/msvc2022_64"
+      ENV{PATH}:
+        - "D:\\C++\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64"
+        - "D:\\C++\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\C++\\MSBuild\\Current\\bin\\Roslyn"
+        - "D:\\C++\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\C++\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "D:\\C++\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "D:\\C++\\Common7\\IDE\\"
+        - "D:\\C++\\Common7\\Tools\\"
+        - "D:\\VM_relate\\bin\\"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\libnvvp"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\PDFtk Server\\bin\\"
+        - "D:\\C++\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64"
+        - "D:\\pytorch\\envs\\pytorch\\Scripts"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.1.0\\"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\lib\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\nvvm"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\pytorch"
+        - "D:\\pytorch\\Scripts"
+        - "D:\\pytorch\\Library\\bin"
+        - "C:\\Program Files\\TortoiseGit\\bin"
+        - "D:\\nodeJs\\node_modules"
+        - "D:\\nodeJs\\"
+        - "D:\\QT\\6.8.3\\mingw_64\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\pytorch\\PyCharm 2024.1.4\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "D:\\nodeJs\\node_global"
+        - "C:\\Users\\Administrator\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Ollama"
+        - "D:\\C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\C++\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\C++\\VC\\vcpkg"
+        - "D:\\pytorch\\envs\\pytorch\\Scripts"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Pet"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/pytorch/envs/pytorch/Lib/site-packages/cmake/data"
+        - "C:/Program Files (x86)/Pet"
+      CMAKE_MODULE_PATH:
+        - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6"
+        - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules"
+        - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/3rdparty/kwin"
+...
+
+---
+events:
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake:13 (find_package)"
+      - "build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake:340 (find_package)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:34 (find_package)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:35 (_qt_internal_find_third_party_dependencies)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:43 (include)"
+      - "build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake:333 (find_package)"
+      - "D:/pytorch/envs/pytorch/Lib/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:145 (find_dependency)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:45 (_qt_internal_find_qt_dependencies)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
+      - "build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake:315 (find_package)"
+      - "CMakeLists.txt:4 (find_package)"
+    name: "Vulkan"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "dependency_provider::qt_maintenance_tool_dependency"
+        mode: "provider"
+        reason: "not_found"
+      -
+        path: "D:/pytorch/envs/pytorch/Lib/site-packages/cmake/data/share/cmake-4.1/Modules/FindVulkan.cmake"
+        mode: "module"
+        reason: "not_found"
+    found: null
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "D:/QT/6.8.3/msvc2022_64"
+      ENV{PATH}:
+        - "D:\\C++\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64"
+        - "D:\\C++\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\C++\\MSBuild\\Current\\bin\\Roslyn"
+        - "D:\\C++\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\C++\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "D:\\C++\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "D:\\C++\\Common7\\IDE\\"
+        - "D:\\C++\\Common7\\Tools\\"
+        - "D:\\VM_relate\\bin\\"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\libnvvp"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\PDFtk Server\\bin\\"
+        - "D:\\C++\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64"
+        - "D:\\pytorch\\envs\\pytorch\\Scripts"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.1.0\\"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\lib\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\nvvm"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\pytorch"
+        - "D:\\pytorch\\Scripts"
+        - "D:\\pytorch\\Library\\bin"
+        - "C:\\Program Files\\TortoiseGit\\bin"
+        - "D:\\nodeJs\\node_modules"
+        - "D:\\nodeJs\\"
+        - "D:\\QT\\6.8.3\\mingw_64\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\pytorch\\PyCharm 2024.1.4\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "D:\\nodeJs\\node_global"
+        - "C:\\Users\\Administrator\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Ollama"
+        - "D:\\C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\C++\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\C++\\VC\\vcpkg"
+        - "D:\\pytorch\\envs\\pytorch\\Scripts"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Pet"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/pytorch/envs/pytorch/Lib/site-packages/cmake/data"
+        - "C:/Program Files (x86)/Pet"
+      CMAKE_MODULE_PATH:
+        - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6"
+        - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules"
+        - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/3rdparty/kwin"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:34 (find_package)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:35 (_qt_internal_find_third_party_dependencies)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:43 (include)"
+      - "build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake:333 (find_package)"
+      - "D:/pytorch/envs/pytorch/Lib/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:145 (find_dependency)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:45 (_qt_internal_find_qt_dependencies)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
+      - "build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake:315 (find_package)"
+      - "CMakeLists.txt:4 (find_package)"
+    name: "WrapVulkanHeaders"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "dependency_provider::qt_maintenance_tool_dependency"
+        mode: "provider"
+        reason: "not_found"
+      -
+        path: "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake"
+        mode: "module"
+        reason: "not_found"
+    found: null
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "D:/QT/6.8.3/msvc2022_64"
+      ENV{PATH}:
+        - "D:\\C++\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64"
+        - "D:\\C++\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\C++\\MSBuild\\Current\\bin\\Roslyn"
+        - "D:\\C++\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\C++\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "D:\\C++\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "D:\\C++\\Common7\\IDE\\"
+        - "D:\\C++\\Common7\\Tools\\"
+        - "D:\\VM_relate\\bin\\"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\libnvvp"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\PDFtk Server\\bin\\"
+        - "D:\\C++\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64"
+        - "D:\\pytorch\\envs\\pytorch\\Scripts"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.1.0\\"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\lib\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\nvvm"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\pytorch"
+        - "D:\\pytorch\\Scripts"
+        - "D:\\pytorch\\Library\\bin"
+        - "C:\\Program Files\\TortoiseGit\\bin"
+        - "D:\\nodeJs\\node_modules"
+        - "D:\\nodeJs\\"
+        - "D:\\QT\\6.8.3\\mingw_64\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\pytorch\\PyCharm 2024.1.4\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "D:\\nodeJs\\node_global"
+        - "C:\\Users\\Administrator\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Ollama"
+        - "D:\\C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\C++\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\C++\\VC\\vcpkg"
+        - "D:\\pytorch\\envs\\pytorch\\Scripts"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Pet"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/pytorch/envs/pytorch/Lib/site-packages/cmake/data"
+        - "C:/Program Files (x86)/Pet"
+      CMAKE_MODULE_PATH:
+        - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6"
+        - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules"
+        - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/3rdparty/kwin"
+...
+
+---
+events:
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake:13 (find_package)"
+      - "build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake:340 (find_package)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:34 (find_package)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:35 (_qt_internal_find_third_party_dependencies)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:43 (include)"
+      - "build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake:333 (find_package)"
+      - "D:/pytorch/envs/pytorch/Lib/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:145 (find_dependency)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:45 (_qt_internal_find_qt_dependencies)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
+      - "build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake:315 (find_package)"
+      - "CMakeLists.txt:4 (find_package)"
+    name: "Vulkan"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "dependency_provider::qt_maintenance_tool_dependency"
+        mode: "provider"
+        reason: "not_found"
+      -
+        path: "D:/pytorch/envs/pytorch/Lib/site-packages/cmake/data/share/cmake-4.1/Modules/FindVulkan.cmake"
+        mode: "module"
+        reason: "not_found"
+    found: null
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "D:/QT/6.8.3/msvc2022_64"
+      ENV{PATH}:
+        - "D:\\C++\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64"
+        - "D:\\C++\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\C++\\MSBuild\\Current\\bin\\Roslyn"
+        - "D:\\C++\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\C++\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "D:\\C++\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "D:\\C++\\Common7\\IDE\\"
+        - "D:\\C++\\Common7\\Tools\\"
+        - "D:\\VM_relate\\bin\\"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\libnvvp"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\PDFtk Server\\bin\\"
+        - "D:\\C++\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64"
+        - "D:\\pytorch\\envs\\pytorch\\Scripts"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.1.0\\"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\lib\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\nvvm"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\pytorch"
+        - "D:\\pytorch\\Scripts"
+        - "D:\\pytorch\\Library\\bin"
+        - "C:\\Program Files\\TortoiseGit\\bin"
+        - "D:\\nodeJs\\node_modules"
+        - "D:\\nodeJs\\"
+        - "D:\\QT\\6.8.3\\mingw_64\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\pytorch\\PyCharm 2024.1.4\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "D:\\nodeJs\\node_global"
+        - "C:\\Users\\Administrator\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Ollama"
+        - "D:\\C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\C++\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\C++\\VC\\vcpkg"
+        - "D:\\pytorch\\envs\\pytorch\\Scripts"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Pet"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/pytorch/envs/pytorch/Lib/site-packages/cmake/data"
+        - "C:/Program Files (x86)/Pet"
+      CMAKE_MODULE_PATH:
+        - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6"
+        - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules"
+        - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/3rdparty/kwin"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:34 (find_package)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:35 (_qt_internal_find_third_party_dependencies)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:43 (include)"
+      - "build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake:333 (find_package)"
+      - "D:/pytorch/envs/pytorch/Lib/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:145 (find_dependency)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:45 (_qt_internal_find_qt_dependencies)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
+      - "build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake:315 (find_package)"
+      - "CMakeLists.txt:4 (find_package)"
+    name: "WrapVulkanHeaders"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "dependency_provider::qt_maintenance_tool_dependency"
+        mode: "provider"
+        reason: "not_found"
+      -
+        path: "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake"
+        mode: "module"
+        reason: "not_found"
+    found: null
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "D:/QT/6.8.3/msvc2022_64"
+      ENV{PATH}:
+        - "D:\\C++\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64"
+        - "D:\\C++\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\C++\\MSBuild\\Current\\bin\\Roslyn"
+        - "D:\\C++\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\C++\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "D:\\C++\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "D:\\C++\\Common7\\IDE\\"
+        - "D:\\C++\\Common7\\Tools\\"
+        - "D:\\VM_relate\\bin\\"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\libnvvp"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\PDFtk Server\\bin\\"
+        - "D:\\C++\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64"
+        - "D:\\pytorch\\envs\\pytorch\\Scripts"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.1.0\\"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\lib\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\nvvm"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\pytorch"
+        - "D:\\pytorch\\Scripts"
+        - "D:\\pytorch\\Library\\bin"
+        - "C:\\Program Files\\TortoiseGit\\bin"
+        - "D:\\nodeJs\\node_modules"
+        - "D:\\nodeJs\\"
+        - "D:\\QT\\6.8.3\\mingw_64\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\pytorch\\PyCharm 2024.1.4\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "D:\\nodeJs\\node_global"
+        - "C:\\Users\\Administrator\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Ollama"
+        - "D:\\C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\C++\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\C++\\VC\\vcpkg"
+        - "D:\\pytorch\\envs\\pytorch\\Scripts"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Pet"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/pytorch/envs/pytorch/Lib/site-packages/cmake/data"
+        - "C:/Program Files (x86)/Pet"
+      CMAKE_MODULE_PATH:
+        - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6"
+        - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules"
+        - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/3rdparty/kwin"
+...
+
+---
+events:
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake:13 (find_package)"
+      - "build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake:340 (find_package)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:34 (find_package)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:35 (_qt_internal_find_third_party_dependencies)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:43 (include)"
+      - "build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake:333 (find_package)"
+      - "D:/pytorch/envs/pytorch/Lib/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:145 (find_dependency)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:45 (_qt_internal_find_qt_dependencies)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
+      - "build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake:315 (find_package)"
+      - "CMakeLists.txt:4 (find_package)"
+    name: "Vulkan"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "dependency_provider::qt_maintenance_tool_dependency"
+        mode: "provider"
+        reason: "not_found"
+      -
+        path: "D:/pytorch/envs/pytorch/Lib/site-packages/cmake/data/share/cmake-4.1/Modules/FindVulkan.cmake"
+        mode: "module"
+        reason: "not_found"
+    found: null
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "D:/QT/6.8.3/msvc2022_64"
+      ENV{PATH}:
+        - "D:\\C++\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64"
+        - "D:\\C++\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\C++\\MSBuild\\Current\\bin\\Roslyn"
+        - "D:\\C++\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\C++\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "D:\\C++\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "D:\\C++\\Common7\\IDE\\"
+        - "D:\\C++\\Common7\\Tools\\"
+        - "D:\\VM_relate\\bin\\"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\libnvvp"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\PDFtk Server\\bin\\"
+        - "D:\\C++\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64"
+        - "D:\\pytorch\\envs\\pytorch\\Scripts"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.1.0\\"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\lib\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\nvvm"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\pytorch"
+        - "D:\\pytorch\\Scripts"
+        - "D:\\pytorch\\Library\\bin"
+        - "C:\\Program Files\\TortoiseGit\\bin"
+        - "D:\\nodeJs\\node_modules"
+        - "D:\\nodeJs\\"
+        - "D:\\QT\\6.8.3\\mingw_64\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\pytorch\\PyCharm 2024.1.4\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "D:\\nodeJs\\node_global"
+        - "C:\\Users\\Administrator\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Ollama"
+        - "D:\\C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\C++\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\C++\\VC\\vcpkg"
+        - "D:\\pytorch\\envs\\pytorch\\Scripts"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Pet"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/pytorch/envs/pytorch/Lib/site-packages/cmake/data"
+        - "C:/Program Files (x86)/Pet"
+      CMAKE_MODULE_PATH:
+        - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6"
+        - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules"
+        - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/3rdparty/kwin"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:34 (find_package)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:35 (_qt_internal_find_third_party_dependencies)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:43 (include)"
+      - "build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake:333 (find_package)"
+      - "D:/pytorch/envs/pytorch/Lib/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:145 (find_dependency)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:45 (_qt_internal_find_qt_dependencies)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
+      - "build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake:315 (find_package)"
+      - "CMakeLists.txt:4 (find_package)"
+    name: "WrapVulkanHeaders"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "dependency_provider::qt_maintenance_tool_dependency"
+        mode: "provider"
+        reason: "not_found"
+      -
+        path: "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake"
+        mode: "module"
+        reason: "not_found"
+    found: null
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "D:/QT/6.8.3/msvc2022_64"
+      ENV{PATH}:
+        - "D:\\C++\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64"
+        - "D:\\C++\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\C++\\MSBuild\\Current\\bin\\Roslyn"
+        - "D:\\C++\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\C++\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "D:\\C++\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "D:\\C++\\Common7\\IDE\\"
+        - "D:\\C++\\Common7\\Tools\\"
+        - "D:\\VM_relate\\bin\\"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\libnvvp"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\PDFtk Server\\bin\\"
+        - "D:\\C++\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64"
+        - "D:\\pytorch\\envs\\pytorch\\Scripts"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.1.0\\"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\lib\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\nvvm"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\pytorch"
+        - "D:\\pytorch\\Scripts"
+        - "D:\\pytorch\\Library\\bin"
+        - "C:\\Program Files\\TortoiseGit\\bin"
+        - "D:\\nodeJs\\node_modules"
+        - "D:\\nodeJs\\"
+        - "D:\\QT\\6.8.3\\mingw_64\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\pytorch\\PyCharm 2024.1.4\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "D:\\nodeJs\\node_global"
+        - "C:\\Users\\Administrator\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Ollama"
+        - "D:\\C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\C++\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\C++\\VC\\vcpkg"
+        - "D:\\pytorch\\envs\\pytorch\\Scripts"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Pet"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/pytorch/envs/pytorch/Lib/site-packages/cmake/data"
+        - "C:/Program Files (x86)/Pet"
+      CMAKE_MODULE_PATH:
+        - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6"
+        - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules"
+        - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/3rdparty/kwin"
+...
+
+---
+events:
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake:13 (find_package)"
+      - "build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake:340 (find_package)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:34 (find_package)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:35 (_qt_internal_find_third_party_dependencies)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:43 (include)"
+      - "build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake:333 (find_package)"
+      - "D:/pytorch/envs/pytorch/Lib/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:145 (find_dependency)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:45 (_qt_internal_find_qt_dependencies)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
+      - "build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake:315 (find_package)"
+      - "CMakeLists.txt:4 (find_package)"
+    name: "Vulkan"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "dependency_provider::qt_maintenance_tool_dependency"
+        mode: "provider"
+        reason: "not_found"
+      -
+        path: "D:/pytorch/envs/pytorch/Lib/site-packages/cmake/data/share/cmake-4.1/Modules/FindVulkan.cmake"
+        mode: "module"
+        reason: "not_found"
+    found: null
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "D:/QT/6.8.3/msvc2022_64"
+      ENV{PATH}:
+        - "D:\\C++\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64"
+        - "D:\\C++\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\C++\\MSBuild\\Current\\bin\\Roslyn"
+        - "D:\\C++\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\C++\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "D:\\C++\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "D:\\C++\\Common7\\IDE\\"
+        - "D:\\C++\\Common7\\Tools\\"
+        - "D:\\VM_relate\\bin\\"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\libnvvp"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\PDFtk Server\\bin\\"
+        - "D:\\C++\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64"
+        - "D:\\pytorch\\envs\\pytorch\\Scripts"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.1.0\\"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\lib\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\nvvm"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\pytorch"
+        - "D:\\pytorch\\Scripts"
+        - "D:\\pytorch\\Library\\bin"
+        - "C:\\Program Files\\TortoiseGit\\bin"
+        - "D:\\nodeJs\\node_modules"
+        - "D:\\nodeJs\\"
+        - "D:\\QT\\6.8.3\\mingw_64\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\pytorch\\PyCharm 2024.1.4\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "D:\\nodeJs\\node_global"
+        - "C:\\Users\\Administrator\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Ollama"
+        - "D:\\C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\C++\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\C++\\VC\\vcpkg"
+        - "D:\\pytorch\\envs\\pytorch\\Scripts"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Pet"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/pytorch/envs/pytorch/Lib/site-packages/cmake/data"
+        - "C:/Program Files (x86)/Pet"
+      CMAKE_MODULE_PATH:
+        - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6"
+        - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules"
+        - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/3rdparty/kwin"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:34 (find_package)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:35 (_qt_internal_find_third_party_dependencies)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:43 (include)"
+      - "build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake:333 (find_package)"
+      - "D:/pytorch/envs/pytorch/Lib/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:145 (find_dependency)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:45 (_qt_internal_find_qt_dependencies)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
+      - "build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake:315 (find_package)"
+      - "CMakeLists.txt:4 (find_package)"
+    name: "WrapVulkanHeaders"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "dependency_provider::qt_maintenance_tool_dependency"
+        mode: "provider"
+        reason: "not_found"
+      -
+        path: "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake"
+        mode: "module"
+        reason: "not_found"
+    found: null
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "D:/QT/6.8.3/msvc2022_64"
+      ENV{PATH}:
+        - "D:\\C++\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64"
+        - "D:\\C++\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\C++\\MSBuild\\Current\\bin\\Roslyn"
+        - "D:\\C++\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\C++\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "D:\\C++\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "D:\\C++\\Common7\\IDE\\"
+        - "D:\\C++\\Common7\\Tools\\"
+        - "D:\\VM_relate\\bin\\"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\libnvvp"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\PDFtk Server\\bin\\"
+        - "D:\\C++\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64"
+        - "D:\\pytorch\\envs\\pytorch\\Scripts"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.1.0\\"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\lib\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\nvvm"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\pytorch"
+        - "D:\\pytorch\\Scripts"
+        - "D:\\pytorch\\Library\\bin"
+        - "C:\\Program Files\\TortoiseGit\\bin"
+        - "D:\\nodeJs\\node_modules"
+        - "D:\\nodeJs\\"
+        - "D:\\QT\\6.8.3\\mingw_64\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\pytorch\\PyCharm 2024.1.4\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "D:\\nodeJs\\node_global"
+        - "C:\\Users\\Administrator\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Ollama"
+        - "D:\\C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\C++\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\C++\\VC\\vcpkg"
+        - "D:\\pytorch\\envs\\pytorch\\Scripts"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Pet"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/pytorch/envs/pytorch/Lib/site-packages/cmake/data"
+        - "C:/Program Files (x86)/Pet"
+      CMAKE_MODULE_PATH:
+        - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6"
+        - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules"
+        - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/3rdparty/kwin"
+...
+
+---
+events:
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake:13 (find_package)"
+      - "build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake:340 (find_package)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:34 (find_package)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:35 (_qt_internal_find_third_party_dependencies)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:43 (include)"
+      - "build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake:333 (find_package)"
+      - "D:/pytorch/envs/pytorch/Lib/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:145 (find_dependency)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:45 (_qt_internal_find_qt_dependencies)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
+      - "build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake:315 (find_package)"
+      - "CMakeLists.txt:4 (find_package)"
+    name: "Vulkan"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "dependency_provider::qt_maintenance_tool_dependency"
+        mode: "provider"
+        reason: "not_found"
+      -
+        path: "D:/pytorch/envs/pytorch/Lib/site-packages/cmake/data/share/cmake-4.1/Modules/FindVulkan.cmake"
+        mode: "module"
+        reason: "not_found"
+    found: null
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "D:/QT/6.8.3/msvc2022_64"
+      ENV{PATH}:
+        - "D:\\C++\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64"
+        - "D:\\C++\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\C++\\MSBuild\\Current\\bin\\Roslyn"
+        - "D:\\C++\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\C++\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "D:\\C++\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "D:\\C++\\Common7\\IDE\\"
+        - "D:\\C++\\Common7\\Tools\\"
+        - "D:\\VM_relate\\bin\\"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\libnvvp"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\PDFtk Server\\bin\\"
+        - "D:\\C++\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64"
+        - "D:\\pytorch\\envs\\pytorch\\Scripts"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.1.0\\"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\lib\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\nvvm"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\pytorch"
+        - "D:\\pytorch\\Scripts"
+        - "D:\\pytorch\\Library\\bin"
+        - "C:\\Program Files\\TortoiseGit\\bin"
+        - "D:\\nodeJs\\node_modules"
+        - "D:\\nodeJs\\"
+        - "D:\\QT\\6.8.3\\mingw_64\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\pytorch\\PyCharm 2024.1.4\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "D:\\nodeJs\\node_global"
+        - "C:\\Users\\Administrator\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Ollama"
+        - "D:\\C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\C++\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\C++\\VC\\vcpkg"
+        - "D:\\pytorch\\envs\\pytorch\\Scripts"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Pet"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/pytorch/envs/pytorch/Lib/site-packages/cmake/data"
+        - "C:/Program Files (x86)/Pet"
+      CMAKE_MODULE_PATH:
+        - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6"
+        - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules"
+        - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/3rdparty/kwin"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:34 (find_package)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:35 (_qt_internal_find_third_party_dependencies)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:43 (include)"
+      - "build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake:333 (find_package)"
+      - "D:/pytorch/envs/pytorch/Lib/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:145 (find_dependency)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:45 (_qt_internal_find_qt_dependencies)"
+      - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
+      - "build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake:315 (find_package)"
+      - "CMakeLists.txt:4 (find_package)"
+    name: "WrapVulkanHeaders"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "dependency_provider::qt_maintenance_tool_dependency"
+        mode: "provider"
+        reason: "not_found"
+      -
+        path: "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake"
+        mode: "module"
+        reason: "not_found"
+    found: null
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "D:/QT/6.8.3/msvc2022_64"
+      ENV{PATH}:
+        - "D:\\C++\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64"
+        - "D:\\C++\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\C++\\MSBuild\\Current\\bin\\Roslyn"
+        - "D:\\C++\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\C++\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "D:\\C++\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "D:\\C++\\Common7\\IDE\\"
+        - "D:\\C++\\Common7\\Tools\\"
+        - "D:\\VM_relate\\bin\\"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\libnvvp"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\PDFtk Server\\bin\\"
+        - "D:\\C++\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64"
+        - "D:\\pytorch\\envs\\pytorch\\Scripts"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.1.0\\"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\lib\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\nvvm"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\pytorch"
+        - "D:\\pytorch\\Scripts"
+        - "D:\\pytorch\\Library\\bin"
+        - "C:\\Program Files\\TortoiseGit\\bin"
+        - "D:\\nodeJs\\node_modules"
+        - "D:\\nodeJs\\"
+        - "D:\\QT\\6.8.3\\mingw_64\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\pytorch\\PyCharm 2024.1.4\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "D:\\nodeJs\\node_global"
+        - "C:\\Users\\Administrator\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Ollama"
+        - "D:\\C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\C++\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\C++\\VC\\vcpkg"
+        - "D:\\pytorch\\envs\\pytorch\\Scripts"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Pet"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/pytorch/envs/pytorch/Lib/site-packages/cmake/data"
+        - "C:/Program Files (x86)/Pet"
+      CMAKE_MODULE_PATH:
+        - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6"
+        - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules"
+        - "D:/QT/6.8.3/msvc2022_64/lib/cmake/Qt6/3rdparty/kwin"
+...

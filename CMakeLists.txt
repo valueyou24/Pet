@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.19)
 project(Pet LANGUAGES CXX)
 
 find_package(Qt6 6.5 REQUIRED COMPONENTS Core Widgets)
+set(CMAKE_AUTORCC ON) #需要添加这个才能加载文件
 
 qt_standard_project_setup()
 
@@ -11,6 +12,8 @@ qt_add_executable(Pet
     mywidget.cpp
     mywidget.h
     mywidget.ui
+    imgs.qrc
+
 )
 
 target_link_libraries(Pet
