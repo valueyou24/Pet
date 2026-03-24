@@ -30,6 +30,17 @@
 ---
 
 ## 📸 Preview
+### 🐾 SayHello
+
+![SayHello](aseets/SayHello.gif)
+
+### 🎈 Swing
+
+![Swing](aseets/Swing.gif)
+
+### 😴 Sleep
+
+![Sleep](aseets/Sleep.gif)
 
 ---
 
